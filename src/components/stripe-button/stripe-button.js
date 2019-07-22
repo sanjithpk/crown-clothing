@@ -1,6 +1,6 @@
 import React from "react";
 import StripeCheckout from "react-stripe-checkout";
-import stripApieKey from "../../config";
+import stripApieKey from "../../../config";
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
